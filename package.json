@@ -1,0 +1,20 @@
+{
+  "name": "flo-scrape",
+  "version": "0.1.0",
+  "description": "Utility to retrieve charging station data from flo.ca's missing API",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettify": "npx prettier --write ."
+  },
+  "author": "Martin Fournier",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "puppeteer": "^14.1.1"
+  },
+  "devDependencies": {
+    "prettier": "2.6.2"
+  }
+}
