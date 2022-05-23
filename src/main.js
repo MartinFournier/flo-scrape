@@ -1,6 +1,8 @@
 import { readFileSync, writeFileSync } from 'fs';
 import { config } from 'dotenv';
+import { Sequelize } from 'sequelize';
 import puppeteer from 'puppeteer';
+import { db, StationObservation } from './database.js';
 
 config();
 
@@ -61,6 +63,9 @@ async function main() {
   const pretty = JSON.stringify(data, null, 2);
   console.log(pretty);
   await browser.close();
+
+  const entry = StationObservation.build({ timestamp: data.timestamp, voltage: data.voltage });
+  await entry.save();
 }
 
 main();

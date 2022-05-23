@@ -8,5 +8,5 @@ Create a .env file with the proper information
 
 ```sh
 npm install
-node main.js
+node src/main.js
 ```
