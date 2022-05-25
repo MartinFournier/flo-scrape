@@ -14,7 +14,8 @@
     "dotenv": "^16.0.1",
     "puppeteer": "^14.1.1",
     "sequelize": "^6.19.2",
-    "sqlite3": "^5.0.8"
+    "sqlite3": "^5.0.8",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "prettier": "2.6.2"
