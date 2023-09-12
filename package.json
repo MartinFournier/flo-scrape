@@ -14,7 +14,7 @@
     "dotenv": "^16.0.1",
     "puppeteer": "^14.1.1",
     "sequelize": "^6.29.0",
-    "sqlite3": "^5.0.8",
+    "sqlite3": "^5.1.5",
     "winston": "^3.7.2",
     "xlsx": "^0.18.5"
   },
