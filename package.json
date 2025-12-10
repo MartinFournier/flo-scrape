@@ -12,7 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.0.1",
-    "puppeteer": "^22.11.2",
+    "puppeteer": "^22.15.0",
     "sequelize": "^6.29.0",
     "sqlite3": "^5.1.5",
     "winston": "^3.7.2",
